@@ -382,7 +382,7 @@ int main() {
 	if(i!= 0){
 	for(int j = 0 ; j < i ; j++){
 		
-        	pthread_join(pt[i],NULL);
+        	pthread_join(pt[j],NULL);
         	}
         	}
 	struct msgbuf shutmsg;
